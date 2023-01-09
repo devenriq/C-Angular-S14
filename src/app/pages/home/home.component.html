@@ -1,0 +1,17 @@
+<div>
+  <h1>Pipes</h1>
+  <p></p>
+
+  <p>Fecha</p>
+  {{ fecha | date : "shortDate" }}
+
+  <p>El porcentaje es: {{ porcentaje }}</p>
+  {{ porcentaje | percent }}
+
+  <p>El costo es: {{ monto }}</p>
+  {{ monto | currency }}
+
+  <p>
+    {{ texto1 | pipesTesting }}
+  </p>
+</div>
