@@ -15,7 +15,7 @@ export class FilterOrderPipePipe implements PipeTransform {
     }
   }
 
-  return resultado
+  return 'hola'
 
   }
 

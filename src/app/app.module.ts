@@ -5,11 +5,13 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { PagesModule } from './pages/pages.module';
 import { FilterOrderPipePipe } from './filter-order-pipe.pipe';
+import { PipeTransformPipe } from './pipe-transform.pipe';
 
 @NgModule({
   declarations: [
     AppComponent,
     FilterOrderPipePipe,
+
   ],
   imports: [
     BrowserModule,
